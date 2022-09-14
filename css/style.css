@@ -54,7 +54,9 @@ body {
     font-family: "Lato";
 }
 .google-fonts,
-.navigation {
+.navigation,
+.fonts > .text ~ div,
+.priority h4 + .priority-rules {
     font-family: 'Roboto', sans-serif;
 }
 .google-fonts h3 {
@@ -84,7 +86,6 @@ h3 {
     color: green;
     font-weight: 700;
 }
-
 .search-fonts h3 ~ .text {
     color: #05248b;
 }
