@@ -48,26 +48,41 @@
 	font-style: normal;
 }
 
-
 /* ------------- ОСНОВНІ СТИЛІ ------------- */
 
 body {
     font-family: "Lato";
 }
+.google-fonts,
 .navigation {
     font-family: 'Roboto', sans-serif;
+}
+.google-fonts h3 {
+    font-family: "Lato";
+}
+.navigation {
     font-weight: 700;
 }
 .text-font {
     font-family: "Larsseit";
 }
-
+.text-font span {
+    font-weight: 700;
+}
+.text-font .medium{
+    font-weight: 500;
+}
 h1,
 h2 {
     color: red;
+    font-weight: 900;
+}
+h2 {
+    font-weight: 700;
 }
 h3 {
     color: green;
+    font-weight: 700;
 }
 
 .search-fonts h3 ~ .text {
