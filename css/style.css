@@ -1,4 +1,9 @@
 /* ------------- ПІДКЛЮЧЕННЯ ШРИФТІВ ------------- */
+
+/*Підключаємо шрифт Roboto з Google Fonts (вибрала варіанти Regular та Bold)*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*Підключаємо інші шрифти*/
 @font-face {
 	font-family: "Larsseit";
 	src: url("../fonts/Larsseit_Regular.woff2") format("woff2"), url("../fonts/Larsseit_Regular.woff") format("woff");
@@ -43,11 +48,20 @@
 	font-style: normal;
 }
 
-/*Підключаємо шрифт Roboto з Google Fonts (вибрала варіанти Regular та Bold)*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 
 /* ------------- ОСНОВНІ СТИЛІ ------------- */
+
+body {
+    font-family: "Lato";
+}
+.navigation {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.text-font {
+    font-family: "Larsseit";
+}
+
 h1,
 h2 {
     color: red;
@@ -130,17 +144,4 @@ footer .top-page a {
 /*Тестування пріоритету - сумісно з тегом style*/
 header > .top-header > p > a {
     color: #bd866f;
-}
-
-
-/*Використовуємо шрифти*/
-body {
-    font-family: "Lato";
-}
-.navigation {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-.text-font {
-    font-family: "Larsseit";
 }
